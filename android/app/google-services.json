@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "982013236683",
+    "project_id": "linkup-f3f91",
+    "storage_bucket": "linkup-f3f91.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982013236683:android:4a3bceb1ebacd80769524e",
+        "android_client_info": {
+          "package_name": "com.example.mychatapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHFYrel6uhk4wWJMWiqexHX-JtJUDeGS8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
