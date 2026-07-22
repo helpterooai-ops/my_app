@@ -7,7 +7,7 @@ plugins {
 
 android {
     namespace = "com.example.mychatapp"
-    compileSdk = flutter.compileSdkVersion
+    compileSdk = 34  // <-- تم التعديل هنا لحل مشكلة Firebase
     ndkVersion = flutter.ndkVersion
 
     compileOptions {
