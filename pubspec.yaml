@@ -1,17 +1,19 @@
 name: my_app
 description: "A new Flutter project."
 publish_to: 'none'
-
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.12.2
+  # ملاحظة: تم تعديل الإصدار إلى 3.5.0 لأن 3.12.2 غير موجود في Dart، وهذا يضمن عمل البناء بنجاح
+  sdk: ^3.5.0
 
 dependencies:
   flutter:
     sdk: flutter
   firebase_core: ^2.24.0
   cloud_firestore: ^4.13.0
+  firebase_auth: ^4.15.0       # <-- تمت الإضافة: حزمة المصادقة (بريد إلكتروني وجوجل)
+  google_sign_in: ^6.1.5       # <-- تمت الإضافة: حزمة تسجيل الدخول عبر جوجل
   cupertino_icons: ^1.0.8
 
 dev_dependencies:
